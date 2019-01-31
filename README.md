@@ -27,6 +27,7 @@ A single page application (SPA) that uses react-router and axios to interact wit
 
 ### Decoupling Instructions
 * Enable CORS on back-end routes
+* add a .env file with your JWT secret
 * Delete /* route from app.js
 * In React, use full links instead of relative links in axios calls
 * Consider moving client and server to separate locations
